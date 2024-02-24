@@ -2,6 +2,8 @@
 
 Listen for gamba events and send notifications to a Telegram chat using a Telegram bot.
 
+![image](https://github.com/BankkRoll/Gamba-telegram/assets/106103625/8ae14dfd-2645-45f2-8378-2e8f865692c5)
+
 ## Installation
 
 1. Clone this repository to your local machine.
