@@ -1,0 +1,28 @@
+{
+    "name": "telegram-bot-blockchain-listener",
+    "version": "1.0.0",
+    "description": "A simple Telegram bot that listens for blockchain events and sends notifications.",
+    "main": "dist/index.js",
+    "types": "dist/index.d.ts",
+    "scripts": {
+        "build": "tsc",
+        "start": "node dist/index.js",
+        "dev": "ts-node src/index.ts"
+    },
+    "dependencies": {
+        "@solana/wallet-adapter-react": "^0.15.35",
+        "@solana/wallet-adapter-wallets": "^0.19.26",
+        "@solana/web3.js": "^1.90.0",
+        "gamba-core-v2": "^0.1.7",
+        "gamba-react-ui-v2": "^0.2.0",
+        "node-telegram-bot-api": "^0.64.0"
+    },
+    "author": "Bankkroll",
+    "license": "MIT",
+    "devDependencies": {
+        "@types/node": "^20.11.20",
+        "@types/node-telegram-bot-api": "^0.64.2",
+        "ts-node": "^10.9.2",
+        "typescript": "^5.3.3"
+    }
+}
