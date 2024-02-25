@@ -6,7 +6,7 @@ Listen for gamba events and send notifications to a Telegram chat using a Telegr
 
 ## Installation
 
-1. Clone this repository to your local machine.
+1. Fork this repo and clone this repository to your local machine.
 2. Navigate to the project directory.
 3. Install dependencies using npm:
 
